@@ -7,9 +7,6 @@ using DaysiBussines.Servicios.Clases;
 using DaysiBussines.Servicios.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using PaginaIniciarSesion = DaysiBussines.Paginas.PaginaIniciarSesion;
 
@@ -45,8 +42,12 @@ namespace DaysiBussines
 
             #region Servicios
                 .AddScoped<IEncrypt, Encrypt>()
-                .AddScoped<IAutenticacion,Autenticacion>()
-                .AddScoped<IAlerta, Alerta>();
+                .AddScoped<IAutenticacion, Autenticacion>()
+                .AddScoped<IAlerta, Alerta>()
+            #endregion
+
+            #region Clientes
+                .AddScoped<IClientes,Clientes>();
             #endregion
 
         }
