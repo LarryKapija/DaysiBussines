@@ -63,9 +63,49 @@ namespace DaysiBussines.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cliente_Icono_128 {
+            get {
+                object obj = ResourceManager.GetObject("Cliente-Icono-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_White {
             get {
                 object obj = ResourceManager.GetObject("Logo-White", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Productos_Icono_128 {
+            get {
+                object obj = ResourceManager.GetObject("Productos-Icono-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reportes_Icono_128 {
+            get {
+                object obj = ResourceManager.GetObject("Reportes-Icono-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Venta_Icono_128 {
+            get {
+                object obj = ResourceManager.GetObject("Venta-Icono-128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
